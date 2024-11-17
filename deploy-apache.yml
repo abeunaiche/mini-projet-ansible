@@ -1,0 +1,15 @@
+---
+- hosts: dev
+  become: true
+  roles:
+    - role: basic-apache-container
+
+- hosts: staging
+  become: true
+  roles:
+    - role: basic-apache-container
+
+- hosts: prod
+  become: true
+  roles:
+    - role: basic-apache-container

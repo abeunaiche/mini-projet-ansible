@@ -1,0 +1,6 @@
+---
+# defaults variables
+system_user: root
+webapp_port: 80
+apache_port: 80
+file_template: index.html.j2
